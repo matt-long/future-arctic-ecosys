@@ -15,6 +15,21 @@ monclim:
       function: compute_mon_climatology
       kwargs: {}
 
+monclim_1940s:
+  name: monclim_1940s
+  description: compute monthly climatology over 1940-1949
+  file_format: nc
+  operators:
+    - !operator
+      applied_method: 'time:clim_mon'
+      module: esmlab.climatology
+      function: compute_mon_climatology
+      kwargs: {}
+  sel_kwargs:
+    time:
+      !!python/object/apply:slice
+      args: ['1940-01-01', '1949-12-31']
+
 monclim_1990s:
   name: monclim_1990s
   description: compute monthly climatology over 1990-1999
@@ -29,7 +44,21 @@ monclim_1990s:
     time:
       !!python/object/apply:slice
       args: ['1990-01-01', '1999-12-31']
-
+      
+monclim_2090s:
+  name: monclim_2090s
+  description: compute monthly climatology over 2090-2099
+  file_format: nc
+  operators:
+    - !operator
+      applied_method: 'time:clim_mon'
+      module: esmlab.climatology
+      function: compute_mon_climatology
+      kwargs: {}
+  sel_kwargs:
+    time:
+      !!python/object/apply:slice
+      args: ['2090-01-01', '2099-12-31']      
 
 
 #-------------------------------------------------------------------------------

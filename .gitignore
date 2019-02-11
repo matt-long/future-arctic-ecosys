@@ -108,3 +108,4 @@ venv.bak/
 docs/_build
 .vscode/
 notes/
+dask-worker.*
