@@ -76,6 +76,6 @@ dependencies:
   - xesmf
   - matlab_kernel
   - git+https://github.com/dask/dask-jobqueue.git
-  - git+https://github.com/matt-long/intake-cesm.git
+  - git+https://github.com/matt-long/intake-esm.git
   - git+https://github.com/matt-long/esmlab.git
   - git+https://github.com/matt-long/xcollection.git
