@@ -1,8 +1,59 @@
-day: [ECOSYS_IFRAC_2, HMXL_2, SST, XMXL_2, diatC_zint_100m, diatChl_SURF, photoC_diat_zint,
-  photoC_sp_zint, spC_zint_100m, spChl_SURF, zooC_zint_100m]
-mon: [ECOSYS_IFRAC, Fe, HMXL, Jint_100m_DIC, NH4, NO3, NOx_FLUX, PAR_avg, PD, PO4,
-  POC_FLUX_IN, POC_PROD, SALT, SiO3, TBLT, TEMP, XMXL, diatC, diatChl, diat_Fe_lim,
-  diat_N_lim, diat_PO4_lim, diat_SiO3_lim, diat_agg, diat_light_lim, diat_loss, graze_diat,
-  graze_diaz, graze_sp, photoC_NO3_diat, photoC_NO3_diat_zint, photoC_NO3_sp, photoC_NO3_sp_zint,
-  photoC_diat, photoC_sp, spC, spChl, sp_Fe_lim, sp_N_lim, sp_PO4_lim, sp_agg, sp_light_lim,
-  sp_loss, tend_zint_100m_NO3, zooC, zoo_loss]
+day:
+- ECOSYS_IFRAC_2
+- HMXL_2
+- SST
+- XMXL_2
+- diatC_zint_100m
+- diatChl_SURF
+- photoC_diat_zint
+- photoC_sp_zint
+- spC_zint_100m
+- spChl_SURF
+- zooC_zint_100m
+mon:
+- ECOSYS_IFRAC
+- Fe
+- HMXL
+- Jint_100m_DIC
+- NH4
+- NO3
+- NOx_FLUX
+- PAR_avg
+- PD
+- PO4
+- POC_FLUX_IN
+- POC_PROD
+- SALT
+- SiO3
+- TBLT
+- TEMP
+- XMXL
+- diatC
+- diatChl
+- diat_Fe_lim
+- diat_N_lim
+- diat_PO4_lim
+- diat_SiO3_lim
+- diat_agg
+- diat_light_lim
+- diat_loss
+- graze_diat
+- graze_diaz
+- graze_sp
+- photoC_NO3_diat
+- photoC_NO3_diat_zint
+- photoC_NO3_sp
+- photoC_NO3_sp_zint
+- photoC_diat
+- photoC_sp
+- spC
+- spChl
+- sp_Fe_lim
+- sp_N_lim
+- sp_PO4_lim
+- sp_agg
+- sp_light_lim
+- sp_loss
+- tend_zint_100m_NO3
+- zooC
+- zoo_loss
